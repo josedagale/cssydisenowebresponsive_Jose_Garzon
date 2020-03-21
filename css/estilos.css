@@ -87,12 +87,14 @@ header nav a
 {
   width: 80%;
   margin: 2vw;
+  padding: 0;
   box-shadow: 2px 2px 5px #02010a;
 }
 .imagen2 img
 {
   width: 50%;
   margin: 2vw;
+  padding: 0;
   border: 2px solid black;
   box-shadow: 2px 2px 5px #02010a;
 }
@@ -142,6 +144,10 @@ footer
 footer ul
 {
   padding: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column;
 }
 footer li
 {
@@ -159,12 +165,21 @@ footer a
 .redessociales img
 {
   width: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+/* estilo de los links*/
+
+header a:dir(index.html)
+{
+  text-decoration: none;
 }
 
 
 
-
 /*Elementos especificos de Pagina de paisajes*/
+
 
 #fotospaisajes
 {
@@ -177,14 +192,26 @@ footer a
 .pagfotospaisajes
 {
   background: #d5c75f;
-  padding: 20px;
+  padding: 2vw;
 }
 div img
 {
-  margin: 2vw;
-  width: 28%;
+  box-sizing: border-box;
+  padding: 2vw;
+  width: 33%;
 }
 .img1
 {
-  filter: blur(10%);
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.img2, .img4, .img6
+{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.img3
+{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
 }
