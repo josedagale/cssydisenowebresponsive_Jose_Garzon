@@ -20,7 +20,7 @@ a
 }
 
 
-
+/*Estilos de header*/
 
 header
 {
@@ -32,7 +32,7 @@ header
   display: flex;
   justify-content: space-between;
   animation-name: rebote;
-  animation-duration: 5s;
+  animation-duration: 2s;
 }
 header h1
 {
@@ -66,7 +66,7 @@ header nav a
 }
 
 
-
+/*Estilos de cuerpo*/
 
 .imagen1
 {
@@ -126,7 +126,7 @@ header nav a
 }
 
 
-
+/*Estilos del footer*/
 
 footer
 {
@@ -159,4 +159,32 @@ footer a
 .redessociales img
 {
   width: 1em;
+}
+
+
+
+
+/*Elementos especificos de Pagina de paisajes*/
+
+#fotospaisajes
+{
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pagfotospaisajes
+{
+  background: #d5c75f;
+  padding: 20px;
+}
+div img
+{
+  margin: 2vw;
+  width: 28%;
+}
+.img1
+{
+  filter: blur(10%);
 }
