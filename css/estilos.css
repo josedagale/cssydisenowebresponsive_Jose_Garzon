@@ -238,5 +238,60 @@ div img
 
 @media (max-width: 900px)
 {
-  
+  #contenido
+  {
+    width: 100%;
+  }
+  header
+  {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  #paisaje1
+  {
+    width: 90%;
+  }
+  .imagen2
+  {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .imagen2 img
+  {
+    width: 90%;
+  }
+  footer
+  {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  footer div
+  {
+    width: 90%;
+    text-align: left;
+  }
+
+  /*Estilos imagenes retratos y paisajes*/
+
+  .pagfotospaisajes
+  {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .pagfotospaisajes img
+  {
+    width: 90%;
+  }
 }
