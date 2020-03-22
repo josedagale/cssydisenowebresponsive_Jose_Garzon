@@ -38,6 +38,7 @@ header h1
 {
   font-size: 2em;
   margin-left: 2vw;
+  text-shadow: 2px 2px 1px #02010a;
 }
 header nav
 {
@@ -169,17 +170,30 @@ footer a
   padding: 0;
 }
 
+
+
+
+
 /* estilo de los links*/
 
-header a:dir(index.html)
+#link1
+{
+  text-decoration: none;
+}
+#link2
+{
+  text-decoration: none;
+}
+#link3
 {
   text-decoration: none;
 }
 
 
 
-/*Elementos especificos de Pagina de paisajes*/
 
+
+/*Elementos especificos de Pagina de paisajes y retratos*/
 
 #fotospaisajes
 {
@@ -214,4 +228,15 @@ div img
 {
   -webkit-filter: sepia(90%);
   filter: sepia(90%);
+}
+
+
+
+
+
+/*Estilos para dispositivo movil*/
+
+@media (max-width: 900px)
+{
+  
 }
